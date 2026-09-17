@@ -1,0 +1,7 @@
+experiment no 3
+create a remote repository and a workin directory and push a file to urs remote reposritory as we done in last two experiment
+go to githush and create a new branch with a command git branch "branchname" 
+to check which branch we are currently working on give a command git branch
+in orer to switch between branches we have two commands switch and checkout
+git checckout branchname or git switch branchname
+git checkout -b filename
