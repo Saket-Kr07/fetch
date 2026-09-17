@@ -1,7 +1,16 @@
 experiment no 3
 create a remote repository and a workin directory and push a file to urs remote reposritory as we done in last two experiment
-go to githush and create a new branch with a command git branch "branchname" 
+go to gitbush and create a new branch with a command git branch "branchname" 
 to check which branch we are currently working on give a command git branch
 in orer to switch between branches we have two commands switch and checkout
 git checckout branchname or git switch branchname
-git checkout -b filename
+to create a nd switch once at a time follow the commands git switch -c branchname or git checkout -b filename
+git branch -D branchname to delete branch
+to merge the branch use the command git checkout -b branchname(since we have deleted all the branches earlier we are creating a new branch with this command )
+create a new file for a second branch and make changes in both the files
+use a command git add . to add a file for .git folder
+to save a file on a second branch use a command git commit -m "hey there"
+us e acommand git switch main (in order to merge a file from second branch to the main b ranch we should be inside a main branch)
+use a command git push -u origin and the second branch name which u have created(pushing the second branch to remote repository)
+to merge the file from second branch to the main branch use a command git merge second branch name
+git push -u origin main
